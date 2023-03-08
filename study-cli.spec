@@ -31,3 +31,7 @@ python3 setup.py install --root %{buildroot}
 %doc README.md
 %{python3_sitelib}/study_cli/
 %{_bindir}/study-cli
+
+%changelog
+* Tue Mar 07 2023 Kalvin McCallum <kalvin_mccallum@student.uml.edu> - 0.3.9-1
+- Initial package for Fedora
