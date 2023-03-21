@@ -11,11 +11,11 @@ In order to create the RPM package, you need to have a few tools installed on yo
 
 2. Create a new directory for the RPM build files:
 <mkdir -p ~/rpmbuild/{BUILD,RPMS,SOURCES,SPECS,SRPMS}>
-Copy the source code for ChatGPT GUI 0.4.1 from PyPI into the ~/rpmbuild/SOURCES/ directory:
+Copy the source code for Command Line Flash Cards from PyPI into the ~/rpmbuild/SOURCES/ directory:
 <cd ~/rpmbuild/SOURCES/>
 <wget https://files.pythonhosted.org/packages/0c/58/0802bf2cc7ddfec15b49680f7c44e76eb11c5841a19f0deef4a4ac4fcd8a/study-cli-0.0.1.tar.gz>
 
-3. Create a new spec file called chatgpt-gui.spec in the ~/rpmbuild/SPECS/ directory:
+3. Create a new spec file called study-cli.spec in the ~/rpmbuild/SPECS/ directory:
 <cd ~/rpmbuild/SPECS/>
 <gedit study-cli.spec>
 Copy and paste the provided spec file contents into the study-cli.spec file and click save.
